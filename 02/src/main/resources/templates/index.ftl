@@ -5,7 +5,7 @@
 </head>
 <body class="ph3 pt0 pb4 mw7 center sans-serif">
 <h1 class="f2 mb0"><span class="gold">k</span>note</h1>
-<p class="f5 mt1 mb4 lh-copy">A simple note-taking app.</p>
+<p class="f5 mt1 mb4 lh-copy">A complex note-taking app.</p>
 <form action="/note" method="POST" enctype="multipart/form-data">
     <ol class="list pl0">
         <li class="mv3">
