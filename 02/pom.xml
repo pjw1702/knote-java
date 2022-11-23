@@ -55,13 +55,13 @@
 	</dependencies>
 
 	<build>
+		<!-- ROOT.war 가 생성된다. -->
+		<finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			  <!-- ROOT.war 가 생성된다. -->
-        		<finalName>ROOT</finalName>
             		<plugin>
                 		<groupId>org.apache.maven.plugins</groupId>
                 		<artifactId>maven-war-plugin</artifactId>
