@@ -58,10 +58,12 @@
 		<!-- ROOT.war 가 생성된다. -->
 		<finalName>ROOT</finalName>
 		<plugins>
+			<!-- create JAR file
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			-->
             		<plugin>
                 		<groupId>org.apache.maven.plugins</groupId>
                 		<artifactId>maven-war-plugin</artifactId>
